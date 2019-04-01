@@ -1,0 +1,29 @@
+{
+  "name": "metalsmith-srcset-auto",
+  "version": "1.0.0",
+  "description": "Metalsmith plugin to automatically set srcset attribute for images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasendubi/metalsmith-srcset-auto.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "plugin",
+    "srcset"
+  ],
+  "author": "Alexey Shmalko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rasendubi/metalsmith-srcset-auto/issues"
+  },
+  "homepage": "https://github.com/rasendubi/metalsmith-srcset-auto#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^4.1.1",
+    "minimatch": "^3.0.4"
+  }
+}
